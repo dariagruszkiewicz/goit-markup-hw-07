@@ -12,7 +12,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -64,7 +64,7 @@
       <section class="section first-section">
         <div class="container">
           <h1 class="first-section__title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-          <button class="main-button" type="button" data-modal-open>Zamów usługe</button>
+          <button class="first-section__button" type="button" data-modal-open>Zamów usługe</button>
         </div>
       </section>
 
@@ -333,7 +333,7 @@
       </section>
     </main>
 
-    <footer class="footer-bg">
+    <footer class="footer__bg">
       <div class="container footer">
         <div>
           <a class="logo" href="index.html">
@@ -396,53 +396,53 @@
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button type="button" class="close-btn" data-modal-close>
+        <button type="button" class="modal__close-btn" data-modal-close>
           <svg width="11" height="11"><use href="./images/icons.svg#icon-Vector"></use></svg>
         </button>
-        <h3 class="main-form-title">Zostaw swoje dane w formularzu poniżej</h3>
+        <h3 class="modal__title">Zostaw swoje dane w formularzu poniżej</h3>
         <form>
-          <div class="main-form-box">
+          <div class="modal__form">
             <label for="name">Imie</label>
-            <div class="main-form-item">
+            <div class="modal__form-item">
               <input type="text" id="name" name="name" required />
-              <svg class="form-icons" width="12" height="12">
+              <svg class="modal__form-icons" width="12" height="12">
                 <use href="./images/icons.svg#icon-Vector1"></use>
               </svg>
             </div>
             <label for="phone-number">Telefon</label>
-            <div class="main-form-item">
+            <div class="modal__form-item">
               <input type="tel" id="phone-number" name="phone" pattern="[0-9\]{9}" required />
-              <svg class="form-icons" width="13" height="13">
+              <svg class="modal__form-icons" width="13" height="13">
                 <use href="./images/icons.svg#icon-Vector2"></use>
               </svg>
             </div>
             <label for="email">Email</label>
-            <div class="main-form-item">
+            <div class="modal__form-item">
               <input type="email" id="email" name="email" required />
-              <svg class="form-icons" width="15" height="12">
+              <svg class="modal__form-icons" width="15" height="12">
                 <use href="./images/icons.svg#icon-Vector3"></use>
               </svg>
             </div>
             <label>Komentarz</label>
             <textarea
-              class="form-comment-textarea"
+              class="modal__form-textarea"
               name="comment"
               rows="6"
               placeholder="Wprowadź tekst"
             ></textarea>
           </div>
-          <label class="form-checkbox-box">
-            <input type="checkbox" name="confirmation" class="form-checkbox" required />
-            <svg class="form-checkbox-icon" width="11" height="8">
+          <label class="form-checkbox">
+            <input type="checkbox" name="confirmation" class="form-checkbox__confirm" required />
+            <svg class="form-checkbox--icon" width="11" height="8">
               <use href="./images/icons.svg#icon-Vector4"></use>
             </svg>
-            <span class="form-checkbox-text"
+            <span class="form-checkbox__text"
               >Oświadczam iż akceptuję <a href="#">Regulamin</a> i
               <a href="#">Politykę Prywatności.</a></span
             >
           </label>
-          <div class="main-form-button-box">
-            <button class="main-form-button" type="submit">Wyślij</button>
+          <div class="form-button__box">
+            <button class="form-button" type="submit">Wyślij</button>
           </div>
         </form>
       </div>

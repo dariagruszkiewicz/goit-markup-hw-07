@@ -1,0 +1,37 @@
+.our-customers-section {
+  width: 1170px;
+
+  &__title {
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding-bottom: 50px;
+    margin: 0 auto;
+  }
+
+  &__list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+    fill: #afb1b8;
+  }
+
+  &__item {
+    width: 170px;
+    height: 92px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    padding: 17.71px 32px 14.25px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &__item:hover,
+    &__item:focus {
+      cursor: pointer;
+      fill: #2196f3;
+      border-color: #2196f3;
+    }
+  }
+}
