@@ -16,22 +16,22 @@
     display: flex;
     justify-content: space-between;
     padding-left: 0px;
-    fill: #afb1b8;
+    fill: $iconsFillingColor;
   }
 
   &__item {
     width: 170px;
     height: 92px;
-    border: 1px solid #afb1b8;
+    border: 1px solid $iconsFillingColor;
     border-radius: 4px;
     padding: 17.71px 32px 14.25px;
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color $transitionDurationDefault $transitionsFunctionDefault;
 
-    &__item:hover,
-    &__item:focus {
+    &:hover,
+    &:focus {
       cursor: pointer;
-      fill: #2196f3;
-      border-color: #2196f3;
+      fill: $specialColor;
+      border-color: $specialColor;
     }
   }
 }

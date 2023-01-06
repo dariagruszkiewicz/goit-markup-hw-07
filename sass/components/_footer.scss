@@ -1,5 +1,5 @@
 .footer {
-  color: #ffffff;
+  color: $secondaryColorWhite;
   font-size: 0.88rem;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -19,18 +19,18 @@
   margin-top: 20px;
 
   &__contacts-link {
-    color: #ffffff;
+    color: $secondaryColorWhite;
     opacity: 0.6;
     text-decoration: none;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color $transitionDurationDefault $transitionsFunctionDefault;
 
-    &__contacts-link--underline {
+    &--underline {
       text-decoration: underline;
     }
 
-    &__contacts-link:hover,
-    &__contacts-link:focus {
-      color: #2196f3;
+    &:hover,
+    &:focus {
+      color: $specialColor;
     }
   }
 }
@@ -48,7 +48,7 @@
   }
 
   &__item {
-    fill: #ffffff;
+    fill: $secondaryColorWhite;
     width: 44px;
     height: 44px;
     justify-content: center;
@@ -56,11 +56,11 @@
     padding: 12px;
     background-color: #ffffff1a;
     border-radius: 50%;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color $transitionDurationDefault $transitionsFunctionDefault;
 
-    &__item:hover,
-    &__item:focus {
-      background-color: #2196f3;
+    &:hover,
+    &:focus {
+      background-color: $specialColor;
       cursor: pointer;
     }
   }
@@ -90,51 +90,51 @@
     width: 358px;
     height: 50px;
     border: 1px solid #ffffff4d;
-    border-radius: 4px;
+    border-radius: $borderRadiusDefault;
     padding-left: 16px;
 
-    &__input:focus {
+    &:focus {
       border-color: #ffffff99;
     }
 
-    &__input::placeholder {
+    &::placeholder {
       color: #ffffff99;
       font-weight: 400;
       line-height: 1.25;
       letter-spacing: 0.03em;
     }
 
-    &__input:enabled {
+    &:enabled {
       color: #ffffffb2;
       outline: none;
     }
   }
 
   &__button {
-    background-color: #2196f3;
+    background-color: $specialColor;
     border: none;
     font-weight: 700;
     font-size: 1rem;
     line-height: 1.87;
     letter-spacing: 0.06em;
-    color: #ffffff;
-    border-radius: 4px;
+    color: $secondaryColorWhite;
+    border-radius: $borderRadiusDefault;
     display: flex;
     align-items: center;
     justify-content: center;
     padding-left: 42px;
     margin-left: 12px;
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: opacity $transitionDurationDefault $transitionsFunctionDefault;
 
-    &__button:hover,
-    &__button:focus {
+    &:hover,
+    &:focus {
       cursor: pointer;
       opacity: 0.75;
     }
   }
 
   &__button-icon {
-    fill: #ffffff;
+    fill: $secondaryColorWhite;
     margin-left: 24px;
     margin-right: 28px;
   }

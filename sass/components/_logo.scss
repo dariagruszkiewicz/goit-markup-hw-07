@@ -8,10 +8,10 @@
   color: #000000;
 
   &--front-color {
-    color: #2196f3;
+    color: $specialColor;
   }
 
   &--back-color {
-    color: #ffffff;
+    color: $secondaryColorWhite;
   }
 }

@@ -6,9 +6,8 @@
     height: 16px;
     width: 16px;
     border-radius: 2px;
-    apperance: none;
 
-    &__confirm:checked + &--icon {
+    &:checked + .form-checkbox--icon {
       visibility: visible;
     }
   }
@@ -19,8 +18,8 @@
     position: absolute;
     left: 52px;
     top: 1px;
-    fill: #ffffff;
-    background-color: #2196f3;
+    fill: $secondaryColorWhite;
+    background-color: $specialColor;
     border-radius: 2px;
     visibility: hidden;
   }
@@ -29,11 +28,11 @@
     font-size: 0.87rem;
     line-height: 1.5rem;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: $secondaryColorGrey;
     margin-left: 5px;
 
-    .form-checkbox__text a {
-      color: #2196f3;
+    & a {
+      color: $specialColor;
     }
   }
 }

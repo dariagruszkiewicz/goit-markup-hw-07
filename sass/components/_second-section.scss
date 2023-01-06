@@ -13,7 +13,7 @@
     font-size: 0.88rem;
     line-height: 1.7;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: $secondaryColorGrey;
   }
 
   &__list {
@@ -27,7 +27,7 @@
     height: 120px;
     width: 270px;
     padding: 25px 100px;
-    background-color: #f5f4fa;
+    background-color: $backgroundColorGray;
     margin-bottom: 30px;
   }
 }
