@@ -1,4 +1,5 @@
 .third-section {
+  @extend .section;
   width: 1170px;
 
   &__list {

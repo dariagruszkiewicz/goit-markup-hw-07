@@ -1,4 +1,5 @@
 .employee-section {
+  @extend .section;
   background-color: $backgroundColorGray;
 
   &__list {
