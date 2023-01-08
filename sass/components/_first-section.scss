@@ -6,6 +6,10 @@
   margin: 0px auto;
   display: flex;
 
+  &__container {
+    @extend .container;
+  }
+
   &__title {
     color: $secondaryColorWhite;
     font-size: 2.75rem;

@@ -2,6 +2,10 @@
   @extend .section;
   background-color: $backgroundColorGray;
 
+  &__container {
+    @extend .container;
+  }
+
   &__list {
     display: flex;
     width: 1170px;

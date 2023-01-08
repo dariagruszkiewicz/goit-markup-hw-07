@@ -30,6 +30,11 @@
   }
 }
 
+.portfolio-container {
+  @extend .container;
+  @extend .section;
+}
+
 .portfolio-images-list {
   display: flex;
   flex-wrap: wrap;

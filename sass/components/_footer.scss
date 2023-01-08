@@ -8,6 +8,10 @@
   &__bg {
     background-color: #2f303a;
   }
+
+  &__container {
+    @extend .container;
+  }
 }
 
 .address-box {
@@ -38,6 +42,10 @@
 .footer-social-links {
   margin-left: 70px;
   margin-right: 78px;
+
+  &__container {
+    @extend .container;
+  }
 
   &__list {
     list-style-type: none;

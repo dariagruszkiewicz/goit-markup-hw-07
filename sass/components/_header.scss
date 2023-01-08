@@ -3,6 +3,10 @@
   height: 80px;
   align-items: center;
 
+  &__container {
+    @extend .container;
+  }
+
   &__link {
     color: $secondaryColorGrey;
     text-decoration: none;

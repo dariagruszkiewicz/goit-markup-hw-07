@@ -2,6 +2,10 @@
   padding-bottom: 0px;
   padding-top: 94px;
 
+  &__container {
+    @extend .container;
+  }
+
   &__title {
     font-weight: 700;
     font-size: 0.88rem;

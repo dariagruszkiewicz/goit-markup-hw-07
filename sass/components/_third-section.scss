@@ -2,6 +2,10 @@
   @extend .section;
   width: 1170px;
 
+  &__container {
+    @extend .container;
+  }
+
   &__list {
     display: flex;
     justify-content: space-between;
